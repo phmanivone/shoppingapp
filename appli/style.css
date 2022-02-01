@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Jost:wght@300&display=swap');
+
+* {
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    background-color: rgb(252, 232, 242);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+li a:focus, li a:hover {
+    border-bottom: 1px solid;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+}
+
+.ajout, table {
+    background-color: pink;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+input {
+    font-family: 'Jost', sans-serif;
+    border-radius: 10px;
+}
+
+input[name="name"] {
+    margin-left: 20px;
+}
+
+input[name="price"] {
+    margin-left: 30px;
+}
+
+input[name="qtt"] {
+    margin-left: 20px;
+}
+
+input[type="submit"], input[type="button"] {
+    color: white;
+    background-color: rgb(255, 161, 175);
+}
